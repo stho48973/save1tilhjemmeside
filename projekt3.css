@@ -17,6 +17,14 @@ header h2{
   font-family: Taylor Gothic;
   font-size: 40px;
 }
+header h3{
+  position: absolute;
+  color: white;
+  margin-top: 150px;
+  left:46%;
+  font-family: Taylor Gothic;
+  font-size: 40px;
+}
 header{
   height: 10vh;
 }
@@ -31,7 +39,7 @@ footer{
 .nav a{
   position: relative;
   left: 82%;
-  top:25px;
+  top:30px;
   color: white;
   text-decoration: none;
   margin-right: 20px;
@@ -44,4 +52,36 @@ footer p{
   bottom:30px;
   color:white;
     font-family: Felix Titling ;
+}
+img.billedeafmig{
+  float:middle ;
+  margin-top: 150px;
+position: absolute;
+right: 45%;
+  width:200px;
+}
+.container{
+  max-width: 100px;
+  margin:auto;
+  background: white;
+  overflow: auto;
+}
+.gallery{
+  margin:100px;
+  border:1px solid #FF5C13;
+  float:left;
+  width: 200px;
+  align-items: auto;
+  font-family: arial;
+  font-size: 18px;
+  color: white
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+  right: 15%;
+}
+.desc{
+  padding:0px;
+  text-align: center;
 }
